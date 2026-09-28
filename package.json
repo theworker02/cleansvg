@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/cleansvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clean identifiers and svg tokens for idempotent workflows.",
+  "bin": {
+    "cleansvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/cleansvg.git"
+  },
+  "homepage": "https://theworker02.github.io/cleansvg/",
+  "keywords": [
+    "clean",
+    "svg",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
